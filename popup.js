@@ -3,7 +3,7 @@
   
   searchButton.onclick = function(element) {
     chrome.tabs.create({
-        url: 'http://www.google.com/search?as_sitesearch=2e.aonprd.com&q=' + encodeURIComponent(search.value),
+        url: 'https://duckduckgo.com/?t=ffab&q=' + encodeURIComponent(search.value) + '+site%3A2e.aonprd.com&atb=v197-1&ia=web' ,
         active: true
     });
   };

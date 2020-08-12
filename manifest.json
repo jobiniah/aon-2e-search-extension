@@ -2,9 +2,13 @@
     "name": "AoN 2e Search Tool",
     "manifest_version": 2,
     "version": "1.0.0",
-    "description": "Chrome Extension which allows for easy searching of 2e.aonprd.com, as their search engine is very slow.",
+    "description": "A Firefox Extension which allows for easy searching of 2e.aonprd.com, as their search engine is very slow.",
     "browser_action": {
       "default_popup": "browser_action.html"
+    },
+    "icons":{
+      "48":"dice-6-fill.svg",
+      "96":"dice-6-fill.svg"
     },
     "commands": {
       "_execute_browser_action": {
